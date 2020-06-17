@@ -55,7 +55,7 @@ if __name__ == "__main__":
     while 1:
 
         assistant_speakes("What can I do for you?")
-        text = get_audio()
+        text = str(get_audio())
 
         speaks.process_text(text)
 
